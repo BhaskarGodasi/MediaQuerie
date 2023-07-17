@@ -1,0 +1,172 @@
+.container{
+    width: 1200px;
+    height: 548px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bg{
+    width: 465px;
+    height: 480px;
+    background-color: rgb(235, 234, 234);
+    padding-top: 30px;
+    margin: auto;
+}
+.card{
+    width: 400px;
+    height: 450px;
+    background-image: linear-gradient(to right,rgb(204, 6, 6) , rgb(107, 2, 2));
+    border-radius: 3px;
+    margin: auto;
+    justify-content: center;
+}
+.frm{
+    display:grid;
+    align-items: left;
+    justify-content: center;
+    margin-left: 10px;
+    
+}
+form{
+    padding: 30px;
+}
+input{
+    margin: 5px 0px;
+    background-color: rgba(231, 228, 228, 0.637);
+    width: 180px;
+    height: 25px;
+    border-radius: 2px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input:focus{
+    background-color: whitesmoke;   
+}
+input:hover{
+    box-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+label{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-weight: 500;
+}
+.button input{
+    width: 100px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-right: 10px;
+}
+.btn{
+    display: flex;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: black;
+}
+.icons img{
+    margin: 9px 10px;
+}
+img{
+    width: 18px;
+}
+img:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+@media screen and ( max-width:1199px) {
+    .container{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+    }
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .bg{
+        width: 75%;
+        height: 480px;
+        background-color: rgb(235, 234, 234);
+        padding-top: 30px;
+        margin: auto;
+    }
+    .card{
+        width: 75%;
+        height: 450px;
+        background-image: linear-gradient(to right,rgb(204, 6, 6) , rgb(107, 2, 2));
+        border-radius: 3px;
+        margin: auto;
+        justify-content: center;
+    }
+    .frm{
+        display:grid;
+        align-items: left;
+        justify-content: center;
+        margin-left: 10px;
+        
+    }
+    form{
+        padding: 30px;
+    }
+    input{
+        margin: 5px 0px;
+        background-color: rgba(231, 228, 228, 0.637);
+        width: 180px;
+        height: 25px;
+        border-radius: 2px;
+        border: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    input:focus{
+        background-color: whitesmoke;   
+    }
+    input:hover{
+        box-shadow: 1px 1px 5px rgb(255, 255, 255);
+    }
+    label{
+        color: rgb(255, 255, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        font-weight: 500;
+    }
+    .button input{
+        width: 100px;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        margin-right: 10px;
+    }
+    .btn{
+        display: flex;
+    }
+    button:hover{
+        background-color: rgb(255, 255, 255);
+        border: none;
+        color: black;
+    }
+    .icons img{
+        margin: 9px 10px;
+    }
+    img{
+        width: 18px;
+    }
+    img:hover{
+        border: 1px solid white;
+        border-radius: 2px;
+    }    
+}
