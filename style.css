@@ -94,6 +94,7 @@ button a{
 }
 footer{
     display: flex;
+    color: white;
 }
 .icon{
     margin-left: 15px;
